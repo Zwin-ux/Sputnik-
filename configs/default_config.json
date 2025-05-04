@@ -1,0 +1,17 @@
+{
+  "model_hierarchy": [
+    "roberta-large",
+    "roberta-base",
+    "distilroberta-base"
+  ],
+  "compression_model": "bert-base-uncased",
+  "task_type": "text-classification",
+  "output_dir": "models",
+  "enable_feedback_loop": true,
+  "pruning_strategies": {
+    "simple": 0.5,
+    "medium": 0.3,
+    "complex": 0.1
+  },
+  "device": "cuda"
+}
