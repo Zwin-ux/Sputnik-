@@ -1,0 +1,48 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+*.pyo
+*.pyd
+
+# Jupyter
+.ipynb_checkpoints
+
+# Data
+*.csv
+*.tsv
+*.log
+*.sqlite3
+*.db
+*.h5
+*.hdf5
+
+# System
+.DS_Store
+Thumbs.db
+
+# VSCode
+.vscode/
+
+# OS
+*.swp
+*.swo
+
+# Node (if ever present)
+node_modules/
+
+# Experiment outputs
+*.out
+*.tmp
+*.bak
+
+# Model checkpoints
+*.ckpt
+*.pth
+*.pt
+*.bin
+models/
